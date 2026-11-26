@@ -1,5 +1,8 @@
 # 👻 YT GHOST-SHELL
 
+
+
+
 ### A YouTube toolkit for your terminal
 
 Download videos and audio, collect subtitles and metadata, and manage playlists from an interactive menu powered by **yt-dlp**.
@@ -35,10 +38,12 @@ The installer downloads to `ghost-setup.sh` in the current directory and then ru
 
 If `curl` or `bash` is missing, install them first:
 
+
 ```bash
 # Termux
 pkg update && pkg install curl bash
-
+# Termux Proot
+apt update && apt install curl bash
 # Debian / Ubuntu
 sudo apt update && sudo apt install curl bash
 ```
